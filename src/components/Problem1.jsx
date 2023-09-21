@@ -56,13 +56,13 @@ const Problem1 = () => {
         <div className="col-6 ">
           <form
             onSubmit={addtable}
-            className="row gy-2 gx-3 align-items-center mb-4"
+            className="row gy-2 gx-3 align-items-center mb-4 ml-10"
           >
             <div className="col-auto">
               <input
                 name="name"
                 type="text"
-                className="form-control"
+                className="form-control border-2 p-2"
                 placeholder="Name"
               />
             </div>
@@ -70,18 +70,18 @@ const Problem1 = () => {
               <input
                 name="status"
                 type="text"
-                className="form-control"
+                className="form-control border-2 p-2 mt-3"
                 placeholder="Status"
               />
             </div>
             <div className="col-auto">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary border-2 mt-2">
                 Submit
               </button>
             </div>
           </form>
         </div>
-        <div className="col-8">
+        <div className="col-8 ml-10">
           <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li className="nav-item">
               <button
